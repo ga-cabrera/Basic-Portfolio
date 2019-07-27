@@ -1,0 +1,69 @@
+/* This means it applies to everything*/
+* {
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    /*Change .navigation a{ margin-top } if you change height*/
+    height: 80px;
+    display: block;
+    background-color: #404040;
+}
+
+.inner_header {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;  
+}
+
+.name_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.name_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    /* Change Margin-Top when changing the .header { height }*/
+    margin-top: 13.5%;
+    height: 0;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+/* removes right padding of nav bar */
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+}
+
+.navigation a li:hover{
+    color: #c2f8ff;
+}
