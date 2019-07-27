@@ -43,7 +43,7 @@ text-decoration: none;
 }
 .navigation a{
     /* Change Margin-Top when changing the .header { height }*/
-    margin-top: 13.5%;
+    margin-top: 12%;
     height: 0;
     display: table;
     float: left;
