@@ -86,6 +86,11 @@ text-decoration: none;
   padding-bottom: 23px;
 }
 
+#bio-line {
+  height: 3px;
+  border: 0px;
+  background-color: #1c97c7;
+}
 /* THIS CLASS IS FOR ALL PAGES. CHANGE THIS IF YOU WANT TO CHANGE BODY ON ALL PAGEE */
 .body_container {
     width: 960px;
@@ -118,6 +123,22 @@ text-decoration: none;
 
 /* ----------------------------- Portfolio ---------------------------------*/
 
+.container {
+  margin: 20px;
+  font-family: 'Quicksand', sans-serif; 
+  text-align: center;
+  overflow: auto;
+}
+
+
+.container p {
+  color: #1c97c7;
+}
+
+.photos {
+  float: left;
+  clear: both;
+}
 
 
 
