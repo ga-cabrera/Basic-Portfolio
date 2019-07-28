@@ -72,7 +72,7 @@ text-decoration: none;
 }
 
 #bottom-header-line {
-  background-color: #302e2e;
+  background-color: #141414;
   border: 0;
   height: 3px;
 }
@@ -136,8 +136,7 @@ text-decoration: none;
 }
 
 .photos {
-  float: left;
-  clear: both;
+  margin: 20px;
 }
 
 
