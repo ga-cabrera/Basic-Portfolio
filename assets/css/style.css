@@ -6,6 +6,7 @@ list-style: none;
 text-decoration: none;
 }
 
+/* -------------------------------- HEADER -----------------------------------*/
 .header {
     width: 100%;
     /*Change .navigation a{ margin-top } if you change height*/
@@ -15,7 +16,8 @@ text-decoration: none;
 }
 
 .inner_header {
-    width: 90%;
+    /* change width: 90%; if you want header to move when screen size is adjusted */
+    width: 960px;
     height: 100%;
     display: block;
     margin: 0 auto;  
@@ -29,6 +31,7 @@ text-decoration: none;
 
 .name_container h1 {
     color: white;
+    text-shadow: 1px 1px 1px #101010;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
@@ -65,5 +68,126 @@ text-decoration: none;
 }
 
 .navigation a li:hover{
-    color: #c2f8ff;
+    text-shadow:1px 1px 6px rgb(99, 201, 241), 1px 1px 6px rgb(43, 191, 211);
 }
+
+#bottom-header-line {
+  background-color: #302e2e;
+  border: 0;
+  height: 3px;
+}
+
+/* -------------------------------- HEADER -----------------------------------*/
+
+/* -------------------------------- BODY -----------------------------------*/
+
+#about_me_header {
+  padding-top: 0;
+  padding-bottom: 23px;
+}
+
+/* THIS CLASS IS FOR ALL PAGES. CHANGE THIS IF YOU WANT TO CHANGE BODY ON ALL PAGEE */
+.body_container {
+    width: 960px;
+    margin: auto;
+    background-color:#eeeeee;
+}
+
+#bio_image {
+  float: left;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+#about-paragraphs {
+  margin-top: 25px;
+}
+
+
+#main_bio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 24px;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    overflow: auto;
+}
+
+
+/* -------------------------------- BODY -----------------------------------*/
+
+/* ----------------------------- Portfolio ---------------------------------*/
+
+
+
+
+/* ----------------------------- Portfolio ---------------------------------*/
+
+/* ------------------------------ Contact ----------------------------------*/
+
+
+
+/* ------------------------------ Contact ----------------------------------*/
+
+#contact_header {
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#hang-out {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: #1c97c7;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+  /* Submit Button */
+  input[type=submit] {
+    background-color: #1c97c7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Color change for Submit Button */
+  input[type=submit]:hover {
+    background-color: #138cbb;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+
+  }
+
+  #contact_image {
+      float:left;
+      margin: 20px;
+      margin-left: 18px;
+  }
+  
+  .contact_form {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  /* Clear floats after the columns */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
