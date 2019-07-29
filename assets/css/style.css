@@ -82,8 +82,8 @@ text-decoration: none;
 /* -------------------------------- BODY -----------------------------------*/
 
 #about_me_header {
+  padding: 25px;
   padding-top: 0;
-  padding-bottom: 23px;
 }
 
 #bio-line {
@@ -100,8 +100,10 @@ text-decoration: none;
 
 #bio_image {
   float: left;
-  margin-top: 25px;
-  margin-right: 25px;
+  margin: 25px;
+  margin-bottom: 5px;
+  margin-left: 0;
+
 }
 
 #about-paragraphs {
@@ -113,7 +115,7 @@ text-decoration: none;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 24px;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Nanum Gothic', sans-serif;
     overflow: auto;
 }
@@ -132,11 +134,13 @@ text-decoration: none;
 
 #portfolio_header p {
   color: #1c97c7;
+  font-size: 17px;
 }
 
 .photo_grid {
   margin: 0 auto;
   padding: 20px;
+  padding-top: 25px;
   float: left;
 }
 
@@ -148,7 +152,6 @@ td {
   position: relative;
   bottom: 10.5px;
 }
-
 #bear h3 {
   text-align: center;
   color: white;
@@ -159,6 +162,92 @@ td {
   position: absolute;
   bottom: 40px;
   padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#gamer {
+  position: relative;
+  bottom: 10.5px;
+}
+#gamer h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#money {
+  position: relative;
+  bottom: 10.5px;
+}
+#money h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#bitcoin {
+  position: relative;
+  bottom: 10.5px;
+}
+#bitcoin h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#gun {
+  position: relative;
+  bottom: 10.5px;
+}
+#gun h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+#ultra {
+  position: relative;
+  bottom: 10.5px;
+}
+#ultra h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+  font-family: 'Quicksand', sans-serif; 
 }
 
 .clear {
@@ -177,10 +266,13 @@ td {
     margin-top: 20px;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    padding: 15px;
+    padding-bottom: 0;
 }
 
 #contact_header p {
   font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
   text-align: center;
   color: #1c97c7;
 }
