@@ -123,20 +123,47 @@ text-decoration: none;
 
 /* ----------------------------- Portfolio ---------------------------------*/
 
-.container {
-  margin: 20px;
-  width: 960px;
-  font-family: 'Quicksand', sans-serif; 
+#portfolio_header {
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
-  overflow: auto;
-  float:left;
+  padding-top: 20px;
 }
 
-.container p {
+#portfolio_header p {
   color: #1c97c7;
 }
 
+.photo_grid {
+  margin: 0 auto;
+  padding: 20px;
+  float: left;
+}
 
+td {
+  padding: 10px;
+}
+
+#bear {
+  position: relative;
+  bottom: 10.5px;
+}
+
+#bear h3 {
+  text-align: center;
+  color: white;
+  background-color: #1c97c7;
+  border: #0f536e solid;
+  border-width: 1px;
+  width: 270px;
+  position: absolute;
+  bottom: 40px;
+  padding: 4px;
+}
+
+.clear {
+  clear: both;
+}
 
 /* ----------------------------- Portfolio ---------------------------------*/
 
@@ -152,7 +179,7 @@ text-decoration: none;
     text-align: center;
 }
 
-#hang-out {
+#contact_header p {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: #1c97c7;
