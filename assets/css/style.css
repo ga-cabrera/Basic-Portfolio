@@ -84,6 +84,8 @@ text-decoration: none;
 #about_me_header {
   padding: 25px;
   padding-top: 0;
+  padding-left: 0;
+  font-size: 40px;
 }
 
 #bio-line {
@@ -326,4 +328,34 @@ input[type=text], select, textarea {
     content: "";
     display: table;
     clear: both;
+  }
+
+  /* ----------------- Contact ------------- */
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex:1;
+  }
+
+  footer {
+    background-color: #404040;
+    color: white;
+    height: 40px;
+    text-align: center;
+  }
+
+  footer h4 {
+    padding: 8px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
   }
