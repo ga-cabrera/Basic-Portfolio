@@ -125,18 +125,15 @@ text-decoration: none;
 
 .container {
   margin: 20px;
+  width: 960px;
   font-family: 'Quicksand', sans-serif; 
   text-align: center;
   overflow: auto;
+  float:left;
 }
-
 
 .container p {
   color: #1c97c7;
-}
-
-.photos {
-  margin: 20px;
 }
 
 
