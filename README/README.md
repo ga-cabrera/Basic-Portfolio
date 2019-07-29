@@ -10,3 +10,7 @@ the contact page was simple, mostly because I used a "stencil" and made it my ow
 Photos aren't in the equation yet, but they will turn up soon.
 
 I'll be updating this website as the months go by. I'll keep you updated!
+
+<UPDATE> 7.28.2019
+
+page has been completed. All photos have been added to the webpage and portfolio page has been fixed. Now all photo headers are in front of photos, just as planned. 
