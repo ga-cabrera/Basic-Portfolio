@@ -134,6 +134,10 @@ text-decoration: none;
   padding-top: 20px;
 }
 
+#portfolio_header h1 {
+  font-size: 30px;
+}
+
 #portfolio_header p {
   color: #1c97c7;
   font-size: 17px;
@@ -270,6 +274,10 @@ td {
     text-align: center;
     padding: 15px;
     padding-bottom: 0;
+}
+
+#contact_header h2 {
+  font-size: 30px;
 }
 
 #contact_header p {
